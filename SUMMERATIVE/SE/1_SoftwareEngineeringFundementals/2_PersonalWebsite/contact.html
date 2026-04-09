@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="./index.html">Personal Website</a></li>
+            <li><a href="./aboutme.html">About Me</a></li>
+            <li><a href="https://github.com/allisonvaldez">GitHub</a></li>
+            <li><a class="active" href="./contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h1>Contact Me</h1>
+
+        <form action="mailto:your@email.com" method="post" enctype="text/plain">
+            <fieldset>
+                <div class="form-group">
+                    <label for="firstLastName">Name: </label>
+                    <input type="text" class="fname" name="firstname" placeholder="Your Name Here"> <br>
+
+                    <label for="emailAddress">Email: </label>
+                    <input type="email" class="fname" name="email" placeholder="YourEmail@domain.com"> <br>
+
+                    Message: <br>
+                    <textarea class="textboox" name="message" rows="15" cols="100"></textarea> <br>
+
+                    <button type="submit" class="center submitbutton"> Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer id="footer">
+        <p>Copyright © 2026</p>
+    </footer>
+</body>
+
+</html>

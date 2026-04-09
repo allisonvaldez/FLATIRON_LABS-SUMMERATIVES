@@ -1,0 +1,61 @@
+* {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    padding: auto;
+}
+
+/* Control for navbar */
+.navbar {
+    background-color: coral;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.navbar a {
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-bottom: auto;
+}
+
+/* Control for the container */
+.main-content {
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 40px 20px;
+    padding: auto;
+}
+
+/* Footer */
+#footer {
+    color: black;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Control for responsiveness */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

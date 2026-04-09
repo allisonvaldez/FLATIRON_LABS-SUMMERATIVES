@@ -1,0 +1,11 @@
+1. If we treat it like an array in the example provided. After creating the array, I start with the first index the increment 
+and print the next character at the next index. I keep the history of the string with the increasing index until I run out 
+of characters. Then I repeat the process at index 1 and then increment by 1 print the result, then increase until the 
+end of the original string. I then repeat the process until I reach the last character. I will then only print or save the 
+last character itself to the array since there is nothing left to increment.
+
+2. The length of the input string  is the scalable aspect. Since the longer or shorter the string or array determines its runtime.
+
+3. As the array goes the operations requires increased quadratically since we have nested loops O(n^2).
+
+4. Since we have nested loops, this program runs in quadratic time.

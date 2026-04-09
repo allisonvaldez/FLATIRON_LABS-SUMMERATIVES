@@ -1,0 +1,9 @@
+[submodule "SE/week_2_FrontEndDevelopment_Javascript/3/SE/week_2_FrontEndDevelopment_Javascript/3/jest-eslint-lab-starter"]
+	path = SE/week_2_FrontEndDevelopment_Javascript/3/SE/week_2_FrontEndDevelopment_Javascript/3/jest-eslint-lab-starter
+	url = https://github.com/allisonvaldez/jest-eslint-lab-starter.git
+[submodule "SE/week_2_FrontEndDevelopment_Javascript/5/SE/week_2_FrontEndDevelopment_Javascript/5/js-analyzing-data-modules-syntax-la"]
+	path = SE/week_2_FrontEndDevelopment_Javascript/5/SE/week_2_FrontEndDevelopment_Javascript/5/js-analyzing-data-modules-syntax-la
+	url = https://github.com/allisonvaldez/js-analyzing-data-modules-syntax-lab.git
+[submodule "SE/week_2_FrontEndDevelopment_Javascript/7/SE/week_2_FrontEndDevelopment_Javascript/7/Lab-Building-Timers-In-JavaScript"]
+	path = SE/week_2_FrontEndDevelopment_Javascript/7/SE/week_2_FrontEndDevelopment_Javascript/7/Lab-Building-Timers-In-JavaScript
+	url = https://github.com/allisonvaldez/Lab-Building-Timers-In-JavaScript.git

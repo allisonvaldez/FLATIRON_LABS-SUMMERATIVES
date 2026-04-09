@@ -1,0 +1,74 @@
+/* Provide simple page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: cornsilk;
+  margin: 0;
+}
+
+/* Set up the cat container to hold the catbreed class cards in a row as a flex*/
+.cat-container {
+  display: flex;
+  flex-wrap: wrap;
+  Edit Preview Snippets Tab currently allows you to navigate the snippets. justify-content: space-around;
+  padding: 2em;
+}
+
+/* Style the cat breed cards for proper display*/
+.cat-breed {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: white;
+  padding: 1em;
+  flex: 1 1 300px;
+  margin: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+/* Needed for the transition*/
+.cat-breed:hover {
+  transform: scale(1.05);
+}
+
+/* Style the images in the cat breed class */
+.cat-breed img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1em;
+}
+
+/* Style the h3 headers in the cat breed class */
+.cat-breed h3 {
+  margin: 0.5em 0;
+}
+
+/* Style all p within each cat breed class*/
+.cat-breed p {
+  margin: 0.5em 0 1em;
+}
+
+/* Provide media queries for responsiveness */
+@media (max-width: 600px) {
+  .cat-container {
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .cat-breed {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cat-breed {
+    flex: 1 1 100%;
+  }
+}
