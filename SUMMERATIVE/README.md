@@ -30,3 +30,11 @@
             3. Display the definitions dynamically to show the word’s definition, part of speech, and example usage on the same page without a reload.
             4. The JavaScript should dynamically update the CSS (highlighting saved words or changing themes for better readability).
             5. Perform Error Handling by displaying an error message if a word is not found or if the API request fails.
+
+## Week 4: Frontend Development Using React (1)
+    1. Single Page Application (SPA) with React
+        ** Lab Objective: Using React, and Vite, build a personal project showcase application based on a provided design mock-up for the landing pageLinks to an external site. **
+            1. A landing page displaying a list of projects.
+            2. A form that allows users to add new projects dynamically.
+            3. A search feature for dynamically filtering projects.
+            4. A responsive design that is inspired by the mock-up. 
