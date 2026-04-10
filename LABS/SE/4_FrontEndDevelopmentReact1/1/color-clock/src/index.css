@@ -137,7 +137,7 @@ code {
   opacity: 1 !important;
 }
 
-/* Controls to display the 23h AM/PM */
+/* Controls to display the 12h am/pm */
 .counter span {
   font-size: 40px !important;
   color: #666 !important;
