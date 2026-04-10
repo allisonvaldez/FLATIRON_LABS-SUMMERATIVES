@@ -14,3 +14,8 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Functionality and Design Process
+To run the project you must type `npm run dev`
+
+I wanted an old school analog digital clock with white letter and black background. However since the project guidelines stated it must have a different color scheme, I ammended my projec to satisfy that requirements. My clock accounts for the proper day, date, and time with the seconds counter. Future iterations will include a calendar, tasks list, events and important dates. Similar to a bullet journal layout.
