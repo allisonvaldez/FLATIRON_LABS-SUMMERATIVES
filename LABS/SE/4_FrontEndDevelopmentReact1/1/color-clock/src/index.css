@@ -99,6 +99,7 @@ p {
   margin: 0;
 }
 
+/* Seperate out the code from Vite from original css */
 code {
   font-family: var(--mono);
   display: inline-flex;
@@ -110,38 +111,33 @@ code {
   background: var(--code-bg);
 }
 
-/* controls for the clock */
+/* Controls for the clock */
 .counter {
-  /* center position on the screen */
+  /* Center the clock's position for middle of the screen */
   position: fixed !important;
   top: 50% !important;
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
-
-  /* Force it to the front */
   z-index: 99999 !important;
 
-  /* Colors and Background */
+  /* Change the colors and background per instructions*/
   background: blue !important;
   color: red !important;
 
-  /* Sizing */
+  /* Change the size and style of the clock for a visual retro appearance */
   min-width: 300px;
   width: max-content;
   font-size: 30px !important;
   padding: 40px;
-
-  /* Style */
   font-family: 'Courier New', Courier, monospace !important;
   border: 5px solid #ffffff !important;
-  /* White border so you can see it on black or white */
   border-radius: 20px;
   display: flex !important;
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-/* controls for the AM/PM */
+/* Controls to display the 23h AM/PM */
 .counter span {
   font-size: 40px !important;
   color: #666 !important;
