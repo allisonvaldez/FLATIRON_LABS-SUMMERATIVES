@@ -2,10 +2,10 @@
 import React from "react";
 
 // Create About component
-function About({ image = "SE/4_FrontEndDevelopmentReact1/2_2/react-components-props-vite-lab/images/demo.png", about }) {
+function About({ image = "https://via.placeholder.com/215", about }) {
     return (
         <aside id="about">
-            <img src={image} alt="blog logo"></img>
+            <img src={image} alt="blog logo" />
             <p>{about}</p>
         </aside >
 
