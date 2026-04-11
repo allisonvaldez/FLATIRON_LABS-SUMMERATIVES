@@ -2,7 +2,7 @@
 import React from "react";
 
 // Create Header component
-function Header() {
+function Header({ name }) {
     return (
         <header id="header">
             <h1>Welcome to {name}</h1>
